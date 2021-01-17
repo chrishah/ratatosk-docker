@@ -18,7 +18,7 @@ RUN git clone --recursive https://github.com/GuillaumeHolley/Ratatosk.git && \
 	cd Ratatosk && \
 	git reset --hard 74ca617afb20a7c24d73d20f2dcdf223db303496 && \
 	mkdir build && cd build && \
-	cmake -DMAX_KMER_SIZE=50 ../ && \
+	cmake -DMAX_KMER_SIZE=100 ../ && \
 	make && make install
 
 #add user (not really necessary)
